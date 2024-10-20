@@ -2,13 +2,10 @@
 #include <iomanip>
 using namespace std;
 #include "math.h"
-#include "windows.h"
 int main()
 {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
 	double x, y, x1, x2, h;
-	cout << "Введіть [x1; x2] та крок h\n";
+	cout << "Enter [x1; x2] and step h\n";
 	cin >> x1 >> x2 >> h;
 	cout << "****************WHILE****************" << endl;
 	x = x1;
