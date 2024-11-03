@@ -6,4 +6,5 @@ int main()
     cout << showpos << setw(7) << right << 4 << endl;
     cout << setw(14) << showpos << internal << fixed << setprecision(2) << -67.09124 << endl;
     cout << showpos << setw(8) << right << 235 << endl;
+    cout << 445 << dec << 456 << endl;
 }
